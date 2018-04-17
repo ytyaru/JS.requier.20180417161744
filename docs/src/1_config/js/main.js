@@ -1,3 +1,3 @@
-require(['sub', 'text!default.txt'], function(sub, md) {
+require(['sub', 'text!text/default.txt'], function(sub, md) {
     sub.print(md);
 });
