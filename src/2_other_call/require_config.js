@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        'text': 'js/lib/requier/text'
+        'text': 'js/lib/require/text'
     }
 });
 
