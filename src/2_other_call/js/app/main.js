@@ -2,7 +2,7 @@
 //    sub.print(md);
 //});
 define(function(require, exports, module) {
-    var sub = require('js/sub');
+    var sub = require('js/app/sub');
     var txt = require('text!txt/default.txt');
-    sub.print(md);
+    sub.print(txt);
 });
