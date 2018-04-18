@@ -1,4 +1,5 @@
 require.config({
+    //baseUrl: 'https://ytyaru.github.io/JS.requier.20180417161744/',
     paths: {
         'text': 'js/lib/require/text',
 	'jquery': 'js/lib/jquery/jquery-3.3.1.min',

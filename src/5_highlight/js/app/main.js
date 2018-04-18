@@ -10,6 +10,8 @@ define(function(require, exports, module) {
     var CssLoader = require('js/util/CssLoader');
     CssLoader.Load('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css');
     CssLoader.Load('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs2015.min.css');
+    var markedSetup = require('js/ext/marked/Setup');
+    markedSetup.Setup();
     html = marked(md);
     $('body').html(html);
     //$('body').html('<p>jQuery</p>');
